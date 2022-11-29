@@ -1,3 +1,6 @@
 [submodule "lib/smolverse"]
 	path = lib/smolverse
 	url = git@github.com-treasure:TreasureProject/smolverse-contracts.git
+[submodule "lib/bridgeworld"]
+	path = lib/bridgeworld
+	url = git@github.com-treasure:TreasureProject/bridgeworld-contracts.git
