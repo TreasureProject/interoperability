@@ -4,3 +4,6 @@
 [submodule "lib/bridgeworld"]
 	path = lib/bridgeworld
 	url = git@github.com-treasure:TreasureProject/bridgeworld-contracts.git
+[submodule "lib/treasure-marketplace"]
+	path = lib/treasure-marketplace
+	url = git@github.com-treasure:TreasureProject/treasure-marketplace-contracts.git

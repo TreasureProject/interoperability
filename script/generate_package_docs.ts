@@ -8,8 +8,9 @@ import { docgen } from 'solidity-docgen';
 import * as fsAsync from 'fs/promises';
 
 async function main() {
-    await generateDocsForPackage('bridgeworld');
+    // await generateDocsForPackage('bridgeworld');
     // await generateDocsForPackage('smolverse');
+    await generateDocsForPackage('treasure-marketplace');
 }
 
 async function generateDocsForPackage(packageName: string) {
