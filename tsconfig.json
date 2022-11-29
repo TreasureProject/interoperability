@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "incremental": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noUncheckedIndexedAccess": true,
+        "outDir": "dist",
+        "skipLibCheck": true,
+        "strict": true,
+        "sourceMap": true,
+        "target": "es2019"
+    },
+    "exclude": [
+        "lib/**/*",
+        "dist/**/*"
+    ],
+    "ts-node": {
+      "transpileOnly": true
+    }
+}

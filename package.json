@@ -1,0 +1,27 @@
+{
+    "name": "treasure-interoperability",
+    "version": "1.0.0",
+    "description": "Interoperability repository for the Treasure ecosystem",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TreasureProject/interoperability.git"
+    },
+    "author": "TreasureDAO",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "clean": "hardhat clean && rimraf dist tsconfig.tsbuildinfo",
+        "coverage": "c8 npm run test",
+        "docs": "oz-docs -c docs",
+        "docs:watch": "npm run docs watch",
+        "prepare": "npm run clean && npm run build",
+        "test": "hardhat compile && ava"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.9",
+        "hardhat": "^2.8.0",
+        "solidity-docgen": "^0.6.0-beta.30",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.0.0"
+    }
+}

@@ -1,0 +1,3 @@
+[submodule "lib/smolverse"]
+	path = lib/smolverse
+	url = git@github.com-treasure:TreasureProject/smolverse-contracts.git
