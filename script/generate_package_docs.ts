@@ -31,6 +31,7 @@ async function generateDocsForPackage(packageName: string) {
     builds.sort((a, b) => b.mtime - a.mtime);
 
     await docgen(builds.map(b => b.data), {
+        pages: 'files',
         outputDir: path.join('./docs', packageName),
         collapseNewlines: true,
     });
